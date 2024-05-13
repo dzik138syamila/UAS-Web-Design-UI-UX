@@ -1,5 +1,8 @@
 # UAS-Web-Design-UI-UX
 
+# Tampilan Website Before Re-design
+# Home Website
+![text]()
 # Tampilan Website
 ![text](https://github.com/dzik138syamila/UAS-Web-Design-UI-UX/blob/Tugas-UAS-Web-Design-UI/UX/screenshot/Tampilan%20Website%201.png)
 
