@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Re-Design Blinkee.com</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="margin-top: -20px; position: fixed; width: 100%; z-index: 1000; left: 50%; transform: translateX(-50%);">
+        <div class="container-fluid">
+            <img src="https://blinkee.com/wp-content/uploads/2022/09/cropped-Blinkee-2022.png" alt="Bootstrap">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Account</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Checkout</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Color</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Amber</a></li>
+                                    <li><a class="dropdown-item" href="#">Aqua</a></li>
+                                    <li><a class="dropdown-item" href="#">Black</a></li>
+                                    <li><a class="dropdown-item" href="#">Blue</a></li>
+                                    <li><a class="dropdown-item" href="#">Brown</a></li>
+                                    <li><a class="dropdown-item" href="#">Green</a></li>
+                                    <li><a class="dropdown-item" href="#">Gold</a></li>
+                                    <li><a class="dropdown-item" href="#">Orange</a></li>
+                                    <li><a class="dropdown-item" href="#">Pink</a></li>
+                                    <li><a class="dropdown-item" href="#">Purple</a></li>
+                                    <li><a class="dropdown-item" href="#">Rainbow/Multicolor</a></li>
+                                    <li><a class="dropdown-item" href="#">Red</a></li>
+                                    <li><a class="dropdown-item" href="#">Silver</a></li>
+                                    <li><a class="dropdown-item" href="#">White</a></li>
+                                    <li><a class="dropdown-item" href="#">Yellow</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Themes</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Animals</a></li>
+                                    <li><a class="dropdown-item" href="#">Bachelorette Party</a></li>
+                                    <li><a class="dropdown-item" href="#">Corporate Events</a></li>
+                                    <li><a class="dropdown-item" href="#">Cannabis Novelties</a></li>
+                                    <li><a class="dropdown-item" href="#">Clubs, Concerts, Festivals, Disco</a></li>
+                                    <li><a class="dropdown-item" href="#">Back to School</a></li>
+                                    <li><a class="dropdown-item" href="#">Frozen Winter Princess</a></li>
+                                    <li><a class="dropdown-item" href="#">Golf</a></li>
+                                    <li><a class="dropdown-item" href="#">Happy Birthday</a></li>
+                                    <li><a class="dropdown-item" href="#">Hearts</a></li>
+                                    <li><a class="dropdown-item" href="#">Pirates</a></li>
+                                    <li><a class="dropdown-item" href="#">Man That Burns Lights</a></li>
+                                    <li><a class="dropdown-item" href="#">Political Parties</a></li>
+                                    <li><a class="dropdown-item" href="#">Sports</a></li>
+                                    <li><a class="dropdown-item" href="#">Stars & Space</a></li>
+                                    <li><a class="dropdown-item" href="#">Summer Lovin’</a></li>
+                                    <li><a class="dropdown-item" href="#">Princess</a></li>
+                                    <li><a class="dropdown-item" href="#">Transportation</a></li>
+                                    <li><a class="dropdown-item" href="#">Tropical Luau</a></li>
+                                    <li><a class="dropdown-item" href="#">Wedding</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Holidays</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">4th of July</a></li>
+                                    <li><a class="dropdown-item" href="#">Halloween</a></li>
+                                    <li><a class="dropdown-item" href="#">Thanksgiving Lights</a></li>
+                                    <li><a class="dropdown-item" href="#">Christmas</a></li>
+                                    <li><a class="dropdown-item" href="#">New Years Eve</a></li>
+                                    <li><a class="dropdown-item" href="#">Valentine’s Day</a></li>
+                                    <li><a class="dropdown-item" href="#">420</a></li>
+                                    <li><a class="dropdown-item" href="#">Mardi Gras</a></li>
+                                    <li><a class="dropdown-item" href="#">Saint Patricks Day</a></li>
+                                    <li><a class="dropdown-item" href="#">Easter</a></li>
+                                    <li><a class="dropdown-item" href="#">May the 4th Be With You</a></li>
+                                    <li><a class="dropdown-item" href="#">Cinco de Mayo</a></li>
+                                    <li><a class="dropdown-item" href="#">Mother’s Day</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Light Up LED Products</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Amber</a></li>
+                                    <li><a class="dropdown-item" href="#">Aqua</a></li>
+                                    <li><a class="dropdown-item" href="#">Black</a></li>
+                                    <li><a class="dropdown-item" href="#">Blue</a></li>
+                                    <li><a class="dropdown-item" href="#">Brown</a></li>
+                                    <li><a class="dropdown-item" href="#">Green</a></li>
+                                    <li><a class="dropdown-item" href="#">Gold</a></li>
+                                    <li><a class="dropdown-item" href="#">Orange</a></li>
+                                    <li><a class="dropdown-item" href="#">Pink</a></li>
+                                    <li><a class="dropdown-item" href="#">Purple</a></li>
+                                    <li><a class="dropdown-item" href="#">Rainbow/Multicolor</a></li>
+                                    <li><a class="dropdown-item" href="#">Red</a></li>
+                                    <li><a class="dropdown-item" href="#">Silver</a></li>
+                                    <li><a class="dropdown-item" href="#">White</a></li>
+                                    <li><a class="dropdown-item" href="#">Yellow</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Glow-In-The-Dark</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Glow Bracelets</a></li>
+                                    <li><a class="dropdown-item" href="#">Glow Necklaces</a></li>
+                                    <li><a class="dropdown-item" href="#">Glow Sticks</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Non-Light Up Fun</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Mood Rings</a></li>
+                                    <li><a class="dropdown-item" href="#">Mirror</a></li>
+                                    <li><a class="dropdown-item" href="#">Beads</a></li>
+                                    <li><a class="dropdown-item" href="#">Novelty and Replica Bills and Challenge Coins</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">New Flashing Blinky and Novelty</a></li>
+                            <li><a class="dropdown-item" href="#">Clearance Flashing Blinky and Novelty</a></li>
+                            <li><a class="dropdown-item" href="#">Blinkee.com Sample Request</a></li>
+                            <li><a class="dropdown-item" href="#">Custom Light Ups</a></li>
+                        </ul>                       
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Custom Blinkees</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">About Blinkee.com</a></li>
+                            <li><a class="dropdown-item" href="#">Contact Magic Matt</a></li>
+                            <li><a class="dropdown-item" href="#">Return Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Shipping Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blinkee Blog</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Magic Matt’s Guide to Blinking</a></li>
+                                    <li><a class="dropdown-item" href="#">Tame the Party Power Beast!</a></li>
+                                    <li><a class="dropdown-item" href="#">Avoid This Epic Party Fail</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fun Blinkee Poems</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">The Birthday Boy</a></li>
+                                    <li><a class="dropdown-item" href="#">The Party Man</a></li>
+                                    <li><a class="dropdown-item" href="#">A Burning Fan Dude</a></li>
+                                    <li><a class="dropdown-item" href="#">Magic Matt is Where It’s At</a></li>
+                                    <li><a class="dropdown-item" href="#">Why Magic Matt?</a></li>
+                                    <li><a class="dropdown-item" href="#">Blinkees in Wikipedia</a></li>
+                                    <li><a class="dropdown-item" href="#">Blinkee Coupon</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 custom-search" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn custom-btn" type="submit">Search</button> 
+                </form>
+            </div>
+        </div>
+    </nav>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+    
+            dropdownToggles.forEach(function (toggle) {
+                toggle.addEventListener('click', function () {
+                    var dropdownMenu = toggle.nextElementSibling;
+                    dropdownMenu.classList.toggle('show');
+                });
+            });
+    
+            document.addEventListener('click', function (event) {
+                var targetElement = event.target;
+    
+                dropdownToggles.forEach(function (toggle) {
+                    var isClickInsideDropdown = toggle.contains(targetElement);
+    
+                    if (!isClickInsideDropdown) {
+                        var dropdownMenu = toggle.nextElementSibling;
+                        dropdownMenu.classList.remove('show');
+                    }
+                });
+            });
+        });
+        
+        var currentNumbers = {
+            number1: 1,
+            number2: 2,
+            number3: 1,
+            number4: 1,
+        };
+        
+        function incrementNumber(id) {
+            if (currentNumbers[id] < 100) {
+                currentNumbers[id]++;
+                document.getElementById(id).innerText = currentNumbers[id];
+            }
+        }
+        
+        function decrementNumber(id) {
+            if (currentNumbers[id] > 1) {
+                currentNumbers[id]--;
+                document.getElementById(id).innerText = currentNumbers[id];
+            }
+        }
+    </script>
+<img src="r.png" class="img-fluid" alt="..." style="margin-top: 50px; margin-bottom: -10px;">
+<p style="margin-top: 25px;" class="paragrah-page text-center">Magic Matt’s Brilliant Blinkys provides exciting glow in the dark toys, flashing jewelry, blinking pins, flashy blinkys and accessories for the twenty-first century. Magic Matt is always on the lookout for the best glowing party supplies, fiber optic toys, and glow lights for parties. We specialize in battery operated lights toys, and our selection is unmatched, but because we constantly improve our sources and suppliers we also have some of the cheapest glow sticks and glow in the dark toys around.</p>
+<p style="margin-top: 25px;" class="paragrah-page text-center"></p>
+</p>
+<div class="d-flex justify-content-center">
+<div class="card" style="width: 18rem;">
+    <img src="https://blinkee.com/wp-content/uploads/2024/05/Light-Up-Expandable-Magic-Wizard-with-Prism-Ball-Main-350x350.jpg" class="card-img-top title-page" alt="...">
+    <div class="card-body">
+        <p class="card-text text-center">As low as $4.29 Bulk</p>
+        <div style="margin-top: -5px; margin-bottom: 10px;" class="d-flex align-items-center justify-content-center">              
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle decrement-icon" viewBox="0 0 16 16" onclick="decrementNumber('number1')">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8"/>
+            </svg>
+            <span id="number1" style="margin-right: 20px; margin-left: 20px; display: inline-block;">1</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle increment-icon" viewBox="0 0 16 16" onclick="incrementNumber('number1')">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+            </svg>
+        </div>
+        <h6 class="card-title text-center"><strong>Light Up Expandable Magic Wizard with Prism Ball</strong></h6>
+        <p class="card-text d-flex align-items-center justify-content-center">$4.99</p>
+        <div class="d-grid gap-2 col-9 mx-auto">
+            <button class="btn custom-btn" type="button">ADD TO CART</button>
+            <button class="btn custom-btn" type="button">QTY DISCOUNT</button>
+        </div>
+    </div>
+</div>
+<div class="card" style="width: 18rem;">
+    <img src="https://blinkee.com/wp-content/uploads/2023/04/Galactic-LED-Expandable-Green-Light-Saber-Sword0-350x350.jpg" class="card-img-top title-page" alt="...">
+    <div class="card-body">
+        <p class="card-text text-center">As low as $3.79 Bulk</p>
+        <div style="margin-top: -5px; margin-bottom: 10px;" class="d-flex align-items-center justify-content-center">              
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle decrement-icon" viewBox="0 0 16 16" onclick="decrementNumber('number2')">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8"/>
+            </svg>
+            <span id="number2" style="margin-right: 20px; margin-left: 20px; display: inline-block;">1</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle increment-icon" viewBox="0 0 16 16" onclick="incrementNumber('number2')">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+            </svg>
+        </div>
+        <h6 class="card-title text-center"><strong>Galactic LED Expandable Green Light Saber Sword</strong></h6>
+        <p class="card-text d-flex align-items-center justify-content-center">$4.49</p>
+        <div class="d-grid gap-2 col-9 mx-auto">
+            <button class="btn custom-btn" type="button">ADD TO CART</button>
+            <button class="btn custom-btn" type="button">QTY DISCOUNT</button>
+        </div>
+    </div>
+</div>
+<div class="card" style="width: 18rem;">
+    <img src="https://blinkee.com/wp-content/uploads/2023/04/Galactic-LED-Expandable-Red-Light-Saber-Sword0-350x350.jpg" class="card-img-top title-page" alt="...">
+    <div class="card-body">
+        <p class="card-text text-center">As low as $3.79 Bulk</p>
+        <div style="margin-top: -5px; margin-bottom: 10px;" class="d-flex align-items-center justify-content-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle decrement-icon" viewBox="0 0 16 16" onclick="decrementNumber('number3')">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8"/>
+            </svg>
+            <span id="number3" style="margin-right: 20px; margin-left: 20px; display: inline-block;">1</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle increment-icon" viewBox="0 0 16 16" onclick="incrementNumber('number3')">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+            </svg>
+        </div>
+        <h6 class="card-title text-center"><strong>Galactic LED Expandable Red Light Saber Sword</strong></h6>
+        <p class="card-text d-flex align-items-center justify-content-center">$4.49</p>
+        <div class="d-grid gap-2 col-9 mx-auto">
+            <button class="btn custom-btn" type="button">ADD TO CART</button>
+            <button class="btn custom-btn" type="button">QTY DISCOUNT</button>
+        </div>
+    </div>
+</div> 
+<div class="card" style="width: 18rem;">
+    <img src="https://blinkee.com/wp-content/uploads/2023/04/Galactic-LED-Expandable-Blue-Light-Saber-Sword0-350x350.jpg" class="card-img-top title-page" alt="...">
+    <div class="card-body">
+        <p class="card-text text-center">As low as $3.79 Bulk</p>
+        <div style="margin-top: -5px; margin-bottom: 10px;" class="d-flex align-items-center justify-content-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle decrement-icon" viewBox="0 0 16 16" onclick="decrementNumber('number4')">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8"/>
+            </svg>
+            <span id="number4" style="margin-right: 20px; margin-left: 20px; display: inline-block;">1</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle increment-icon" viewBox="0 0 16 16" onclick="incrementNumber('number4')">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+            </svg>
+        </div>
+        <h6 class="card-title text-center"><strong>Galactic LED Expandable Blue Light Saber Sword</strong></h6>
+        <p class="card-text d-flex align-items-center justify-content-center">$4.49</p>
+        <div class="d-grid gap-2 col-9 mx-auto">
+            <button class="btn custom-btn" type="button">ADD TO CART</button>
+            <button class="btn custom-btn" type="button">QTY DISCOUNT</button>
+        </div>
+    </div>
+</div>
+</div>
+<footer style="margin-bottom: -20px; margin-left: -20px; margin-right: -20px; background-color: #3e3e3e;" class="footer mt-auto py-3">
+    <div class="container">
+        <h5 class="footer-text mb-2"><strong>Contact Us Now</strong></h5>
+        <p class="footer-text">Blinkee.com, LLC</p>
+        <p class="footer-text">614-C S Business IH35 PMB 1028</p>
+        <p class="footer-text">New Braunfels, TX 78130</p>
+        <p class="footer-text">Monday - Saturday: 6AM - Midnight PST</p>
+        <p class="footer-text">Phone: (415) 261-0675</p>
+        <p class="footer-text">Fax: (415)366-8520</p>
+        <p class="footer-text">Email: Matt@blinkee.com</p>
+        <p class="footer-text">Skype: blinkeedotcom</p>
+    </div>
+</footer>
+</body>
+</html>
