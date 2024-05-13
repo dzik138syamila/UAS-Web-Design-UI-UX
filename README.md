@@ -19,7 +19,7 @@
 ![text](https://github.com/dzik138syamila/UAS-Web-Design-UI-UX/blob/Tugas-UAS-Web-Design-UI/UX/screenshot/Tampilan%20Website%202.png)
 
 # Tampilan Navbar 2
-![text](https://github.com/dzik138syamila/UAS-Web-Design-UI-UX/blob/Tugas-UAS-Web-Design-UI/UX/screenshot/Tampilan%20Website%202.png)
+![text](https://github.com/dzik138syamila/UAS-Web-Design-UI-UX/blob/Tugas-UAS-Web-Design-UI/UX/screenshot/Tampilan%20Website%203.png)
 
 # Tampilan Produk-Produk
 ![text](https://github.com/dzik138syamila/UAS-Web-Design-UI-UX/blob/Tugas-UAS-Web-Design-UI/UX/screenshot/Tampilan%20Produk.png)
