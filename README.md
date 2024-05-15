@@ -12,6 +12,9 @@
 
 
 # TAMPILAN WEBSITE AFTER RE-DESIGN
+### Sebelumnya saya ingin memberikan bukti bahwa project saya tidak memakai django
+![text](https://github.com/dzik138syamila/UAS-Web-Design-UI-UX/blob/Tugas-UAS-Web-Design-UI/UX/screenshot/link%20project.png)
+
 # Tampilan Website
 ![text](https://github.com/dzik138syamila/UAS-Web-Design-UI-UX/blob/Tugas-UAS-Web-Design-UI/UX/screenshot/Tampilan%20Website%201.png)
 
@@ -26,7 +29,3 @@
 
 # Tampilan Footer
 ![text](https://github.com/dzik138syamila/UAS-Web-Design-UI-UX/blob/Tugas-UAS-Web-Design-UI/UX/screenshot/Tampilan%20Footer.png)
-
-# LINK PROJECT
-### Sebelumnya saya ingin memberikan bukti bahwa project saya tidak memakai django
-![text](https://github.com/dzik138syamila/UAS-Web-Design-UI-UX/blob/Tugas-UAS-Web-Design-UI/UX/screenshot/link%20project.png)
