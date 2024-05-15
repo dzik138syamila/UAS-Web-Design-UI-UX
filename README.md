@@ -16,7 +16,7 @@
 ![text](https://github.com/dzik138syamila/UAS-Web-Design-UI-UX/blob/Tugas-UAS-Web-Design-UI/UX/screenshot/Tampilan%20Website%201.png)
 
 # Tampilan Navbar 1
-### Sebelumnya, saya salah menyebut bahwa saat presentasi. Sebenarnya saya salah menyebutkan tidak ada backend dalam sini namun hanya mengaktifkan fungsional.
+### Sebelumnya, saya salah menyebutkan saat presentasi. Sebenarnya saya salah menyebutkan tidak ada backend dalam sini namun hanya mengaktifkan fungsional.
 ![text](https://github.com/dzik138syamila/UAS-Web-Design-UI-UX/blob/Tugas-UAS-Web-Design-UI/UX/screenshot/Tampilan%20Navbar%201.png)
 
 # Tampilan Navbar 2
